@@ -10,6 +10,7 @@ class Range:
         self.length=max(0,(stop-start+step-1)//step)
 
         self.start=start
+        
         self.step=step
 
     def __len__(self):
