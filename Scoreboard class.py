@@ -3,6 +3,7 @@ class Scoreboard:
         self._board=[None]*capacity
         self._n=0
 
+    
     def _getitem_(self,k):
         return self._board[k]
     def _str_(self):
