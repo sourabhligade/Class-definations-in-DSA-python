@@ -2,6 +2,7 @@ class CreditCard:
 ”””A consumer credit card.”””
 def     init     (self, customer, bank, acnt, limit): ”””Create a new credit card instance.
 The initial balance is zero.
+
 customer the name of the customer (e.g., John Bowman )
 bank
 acnt
