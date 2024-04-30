@@ -6,6 +6,7 @@ class ArrayQueue:
         self._size=0
 
 
+    
     def len(self):
         return len(self._size)
     
